@@ -32,8 +32,8 @@ class GcodeReader:
                 if coordinatesZ:
                     valueZ = "{}".format(coordinatesZ[0])
                     valueZ = valueZ[1:]
-        print(len(listX), len(listY), len(listZ))
-        print(listY)
+        #print(len(listX), len(listY), len(listZ))
+        #print(listY)
         return listX, listY, listZ
 
     def plot_XYZ_coordinates(self, listX, listY, listZ ):
