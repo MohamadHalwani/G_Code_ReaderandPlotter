@@ -6,7 +6,7 @@ import numpy as np
 class GcodeReader:
 
     def __init__(self):
-        self.filepath = '../Tablet_-graphic-_Holder__v1_GCODE.gcode'
+        self.filepath = '../tool-path.gcode'
 
         listX, listY, listZ = self.extract_XYZ()
         self.plot_XYZ_coordinates(listX, listY, listZ )
